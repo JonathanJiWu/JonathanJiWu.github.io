@@ -61,7 +61,7 @@ span_wu {
 }
 form {
   padding: 15px;
-  border-style: solid;
+  border-style:groove;
 }
 input[type="button"] {
   color: black;
@@ -86,8 +86,9 @@ li {
 }
 #img_merock {
   position: relative;
-  width: 85%;
-  padding: 30px;
+  left: 15px;
+  width: 95%;
+  padding: 0px;
   border: black;
   border-width: 20px;
 }
@@ -97,7 +98,7 @@ li {
   left: 3%;
 }
 .contact_detail {
-  text-align: center;
+  text-align:left;
   color: #ffffff;
 }
 * {
@@ -117,11 +118,12 @@ li {
   background-color: #1a7cfa;
   color: white;
   display: flex;
+  z-index: 1
 }
 .nav-tag {
   position: relative;
   top: 40%;
-  right: -70%;
+  right: -10%;
   font-size: 200%;
   color: #ffffff;
 }
@@ -174,5 +176,24 @@ a:hover,
 a:active {
   color: red;
 }
-.3things {
+#heres{
+  position: relative;
+  left: 30px;
+  color: #ffffff;
+  font-size: 200%;
+}
+.end{
+  position: relative;
+  left: -10%;
+}
+.email{
+  position: relative;
+  left: 20px;
+}
+.contact_detail{
+  position: relative;
+  left: 20px;
+}.form{
+  position: relative;
+  left: 20px;
 }
