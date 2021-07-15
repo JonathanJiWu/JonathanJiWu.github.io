@@ -1,2 +1,2 @@
 # JonathanJiWu.github.io
-JiWu's HWs for PerScholas
+JiWu's prework Home works for PerScholas SE program.
